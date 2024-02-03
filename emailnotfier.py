@@ -10,7 +10,7 @@ import ssl
 import smtplib
 
 SCOPES = ["https://www.googleapis.com/auth/spreadsheets"]
-SPREADSHEET_ID = "1OvSI546masmWx_0XygG7m8G4HBDz8AwhWpn-7SmxjKE"
+SPREADSHEET_ID = "link your spreadsheet"
 
 def main():
     credentials = None
@@ -82,8 +82,8 @@ def dateCompare(dt):
 def sendEmail(message):
 
     print(" got here")
-    EMAIL_SENDER = "said.elakad@gmail.com"
-    APP_PASSWORD = "syux tfga eoxt lawi"
+    EMAIL_SENDER = "email setup required"
+    APP_PASSWORD = "googlesheets API setup required"
     SUBJECT = "ASSIGNMENT DUE SOON! "
     em = EmailMessage()
     em['From'] = EMAIL_SENDER
